@@ -123,16 +123,16 @@
     <!-- contact us section -->
     <div class="contact">
       <h3>CONTACT US</h3>
-      <form name="userdetails">
+      <form>
         <div class="row">
           <div class="col">
-            <input type="text" class="form-control" placeholder="Name... " id="name">
+            <input type="text" class="form-control" placeholder="Name... " id="name" required>
           </div>
           <div class="col">
-            <input type="text" class="form-control" id="email" placeholder="Email..."> <br>
+            <input type="email" class="form-control" id="email" placeholder="Email..." required> <br>
           </div>
         </div>
-        <textarea class="form-control" rows="5" id="message" placeholder="Your message here... "></textarea> <br>
+        <textarea class="form-control" rows="10" id="message" placeholder="Your message here... " required></textarea> <br>
        
         <button type="submit">Send</button>
       </form>
