@@ -30,7 +30,7 @@
   background-position: center;
   width: 100%;
   height: 300px;
-  padding: 8% 0 8% 0;
+  padding: 8% 0 15% 0;
   text-align: center;
   line-height: 2;
   color: #fff;
@@ -64,13 +64,14 @@
 }
 .contact h3{
   text-align: center;
-  padding-top: 30px;
+  padding-top: 50px;
   padding-bottom: 30px;
 }
 form{
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 100px;
 }
 .form-control{
   background-color: rgb(255,255,255,0);
@@ -79,9 +80,17 @@ form{
 .form-control placeholder{
   color: #fff;
 }
+form button{
+  background-color: rgb(255,255,255,0);
+  padding: 5px 10px 5px 10px;
+}
 /* social section */
 .socials{
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+/* footer */
+.footer{
+  text-align: center;
 }
