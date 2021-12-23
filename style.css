@@ -35,7 +35,19 @@
   line-height: 2;
   color: #fff;
 }
+/* what we do */
+.what{
+  text-align: center;
+  padding-top: 40px;
+}
+.task{
+  padding-top: 40px;
+}
 /* portfolio */
+.portfolio{
+  text-align: center;
+  padding-top: 40px;
+}
 .project img{
   display: block;
   margin-left: auto;
