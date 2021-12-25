@@ -3,29 +3,29 @@ $(document).ready(function() {
   // image 1 hide / show
   $(".img1").click(function(){
     $("#design").show();
-    $(".img1").hide();
+    $(".des").hide();
   });
   $("#design").click(function(){
-    $(".img1").show();
+    $(".des").show();
     $("#design").hide();
   });
   // image 2 hide/show
   $(".img2").click(function(){
     $("#dev").show();
-    $(".img2").hide();
+    $(".dev").hide();
   });
   $("#dev").click(function(){
     $("#dev").hide();
-    $(".img2").show();
+    $(".dev").show();
   });
   // image 3 hide/show
   $(".img3").click(function(){
     $("#manage").show();
-    $(".img3").hide();
+    $(".manage").hide();
   });
   $("#manage").click(function(){
     $("#manage").hide();
-    $(".img3").show();
+    $(".manage").show();
   });
   // hide/show project names
   $(".txt-front").hide();
@@ -89,6 +89,6 @@ $(document).ready(function() {
 });
 // send message
 function sendmessage() {
-  var sender_name = document.getElementById('name').value;
-  alert('Thank you ' + sender_name + ' we have received your message. Thank you for reaching out to us');
+  var sender_name = document.getElementById('name').value
+  alert('Thank you ' + sender_name + ' we have received your message. Thank you for reaching out to us')
 }
