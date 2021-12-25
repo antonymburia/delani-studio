@@ -56,6 +56,19 @@
   padding-bottom: 4%;
   padding-top: 4%;
 }
+.project {
+  position: relative;
+  text-align: center;
+  color: #000;
+}
+.txt-front{
+  font-size: 50px;
+  font-weight: 900;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /* contact us */
 .contact{
   background-image: url("assets/backgrounds/c_image.jpg");
