@@ -50,6 +50,9 @@
 .task{
   padding-top: 40px;
 }
+.task h5{
+  font-weight: 700;
+}
 /* portfolio */
 .portfolio{
   text-align: center;
